@@ -1,0 +1,33 @@
+#volanta {
+	color:#10508B;
+	
+
+ } 
+  #volanta, #titulo {
+  margin-left: 300px;  
+  font-family: sans-serif;
+}
+.bloquestextos{
+	font-family:sans-serif;
+    width:50%;
+}
+.capital{
+	font-size:2em;
+}
+ #fecha{
+	font-size:9pt;
+	font-family:sans-serif;
+	color: grey;
+}
+#texto{
+	font-size: 11pt;
+	
+}
+
+#volanta, #titulo, #texto, {
+	font-family: sans-serif;
+}
+#pie, #pie2 {
+	font-weight:lighter;
+	font-family: sans-serif;
+}
