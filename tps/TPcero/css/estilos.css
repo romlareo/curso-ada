@@ -1,0 +1,85 @@
+*{
+	margin: 0 auto;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.container {
+	margin: 0 auto;
+	position: relative;
+	width: 1500px;
+	height: 700px;
+
+}
+
+.cuadro{
+	position: relative;
+	background-color: white;
+	border: 1px solid #e3010f;
+	width: 1500px;
+	height: 700px;
+	position: relative;
+	top: 20px;
+	margin-bottom:20px;
+	border-radius: 10px;
+}
+
+
+
+#titulo{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	letter-spacing: 5px;
+	color:#e3010f;
+	position: relative;
+	margin-bottom: 10px;	
+	margin-top: 20px;
+
+}
+#bill{
+	position: relative;
+	margin: 10px;
+
+}
+
+
+.formulario {
+
+	margin:10px;
+	position: relative;
+	font-family: 'Josefin Sans', sans-serif;
+	color:#e3010f;
+	font-size: 15px;
+	top: 30px;
+	text-align: center;
+
+}
+
+#logos {
+	width: 36px;
+	height: 36px;
+	margin: 5px;
+}
+
+.menu{
+	position: relative;
+float: right;
+right: 10px;
+top: 100px;
+
+}
+
+#derechos {
+	margin:10px;
+	position: relative;
+	font-family: 'Josefin Sans', sans-serif;
+	color:#e3010f;
+	font-size: 15px;
+	text-align: center;
+	top:180px;
+
+
+}
+
