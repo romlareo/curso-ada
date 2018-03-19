@@ -1,0 +1,26 @@
+
+
+
+#rojo{
+	background-color: red;
+
+}
+
+#gris{
+	background-color: grey;
+}
+
+.col-md-4{
+	width: 264px;
+	height: 264px;
+	margin: 1px;
+	}
+
+#cruz{
+	width: 264px;
+	height: 264px;
+	padding-right: 25px;
+}
+
+
+
