@@ -1,0 +1,148 @@
+/*primera fila */
+
+
+.containerMio{
+	width: 1000px;
+	height: 2000px;
+}
+
+#rojo{
+	background-color: red;
+	width: 100px;
+	height: 500px;
+}
+
+#azul{
+	background-color: blue;
+	width: 100px;
+	height: 500px;
+}
+#negroexterior{
+	background-color: black;
+	width: 50px;
+	height: 500px;
+}
+#magenta{
+	background-color: pink;
+	width: 100px;
+	height: 500px;
+}
+#amarillo{
+	background-color: yellow;
+	width: 100px;
+	height: 500px;
+}
+#blanco{
+	background-color: white;
+	width: 100px;
+	height: 500px;
+}
+#cyan{
+	background-color: cyan;
+	width: 100px;
+	height: 500px;
+}
+#verde{
+	background-color: green;
+	width: 100px;
+	height: 500px;
+}
+#negro{
+	background-color: green;
+	width: 100px;
+	height: 500px;
+}
+
+
+
+/*segunda fila */
+
+
+
+#negroexterior2{
+	background-color: black;
+	width: 50px;
+	height: 50px;
+}
+#magenta2{
+	background-color: pink;
+	width: 100px;
+	height: 50px;
+}
+#amarillo2{
+	background-color: yellow;
+	width: 100px;
+	height: 50px;
+}
+#blanco2{
+	background-color: white;
+	width: 100px;
+	height: 50px;
+}
+#cyan2{
+	background-color: cyan;
+	width: 100px;
+	height: 50px;
+}
+#verde2{
+	background-color: green;
+	width: 100px;
+	height: 50px;
+}
+#negro2{
+	background-color: green;
+	width: 100px;
+	height: 50px;
+}
+#azul2{
+	background-color: blue;
+	width: 100px;
+	height: 50px;
+}
+
+
+/*tercer fila */
+
+#degrade{
+	width: 400px;
+	height: 100px;
+	background-color: black;
+}
+
+#degra{
+	width: 400px;
+	height: 100px;
+	background-color: black;
+}
+
+#senial{
+	width: 400px;
+	height: 100px;
+	
+	padding-left: 34px;
+}
+#ajuste{
+	width: 330px;
+	height: 100px;
+	
+}
+
+/*cuarta fila */
+
+
+#barritas{
+	width: 400px;
+	height: 100px;
+	background-color: black;
+}
+
+#barra{
+	width: 400px;
+	height: 100px;
+	background-color: black;
+}
+
+#baritas{
+	width: 400px;
+	height: 100px;
+}
