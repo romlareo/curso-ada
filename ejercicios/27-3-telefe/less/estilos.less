@@ -1,0 +1,54 @@
+@circulo: 50%;
+@azul:blue;
+@verde:green;
+@rojo:red;
+@letras:transparent;
+@fondo:linear-gradient(pink,white);
+@ancho:100px;
+
+
+*{	margin: 0;
+}
+body{
+	background: @fondo;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	height: 800px;
+}
+.pelota1{
+	border-radius: @circulo;
+	background-color: @azul;
+	width: @ancho *2;
+	height: @ancho *2;
+	margin-right: 10px;
+	&:hover{
+        background:lighten(@azul, 20%);
+ h1{
+ 	font-family: sans-serif;
+ 	font-size:100px;
+ 	color: white;
+ 	text-align: center;
+ 	position: relative;
+ 	top:40px;
+ }}}
+.pelota2{
+	.pelota1;
+	background-color: green;
+	&:hover{
+        background:lighten(@verde, 20%);
+ }}
+.pelota3{
+	.pelota1;
+	background-color: red;
+	&:hover{
+        background:lighten(@rojo, 20%);
+ }}
+h1{
+	color: @letras;
+}
+	

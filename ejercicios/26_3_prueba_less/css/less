@@ -5,8 +5,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
-  top: 0px;
   margin: 0 auto;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -32,12 +30,7 @@
   height: 400px;
   background-color: peru;
   margin-right: 10px;
-  background: peru;
-  margin-right: 10x;
   background-color: yellow;
-}
-.caja2:hover {
-  background: palegreen;
 }
 .bloque2 {
   background-color: grey;
@@ -53,56 +46,37 @@
   height: 400px;
   background-color: peru;
   margin-right: 10px;
-  background: peru;
-  margin-right: 10x;
   height: 200px;
-}
-.caja3:hover {
-  background: palegreen;
 }
 .caja4 {
   width: 400px;
   height: 400px;
   background-color: peru;
   margin-right: 10px;
-  background: peru;
   background-color: yellow;
-  background: yellow;
-  margin-right: 10x;
   height: 200px;
-}
-.caja4:hover {
-  background: palegreen;
-}
-.caja4:hover {
-  background-color: plum;
 }
 .parrafo {
   width: 400px;
   height: 400px;
   margin-right: 10px;
-  background: peru;
-  margin-right: 10x;
   height: 200px;
   background-color: peru;
   width: 840px;
   height: 100px;
   text-align: center;
 }
-.parrafo:hover {
-  background: palegreen;
-}
-.caja1 {
+.div-caja1 {
   background: peru;
   margin-right: 10x;
 }
-.caja1:hover {
-  background: palegreen;
+.div-caja1:hover {
+  color: palegreen;
 }
-.caja2 {
+.div-caja2 {
   background: yellow;
   margin-right: 10x;
 }
-.caja2:hover {
-  background-color: plum;
+.div-caja2:hover {
+  color: plum;
 }
