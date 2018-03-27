@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<script src="C:\Users\rglar\Desktop\cocina\bootstrap\js\jquery.js"></script>
+	<script src="C:\Users\rglar\Desktop\cocina\bootstrap\js\bootstrap.min.js"></script>  
+	<link href="https://fonts.googleapis.com/css?family=Quicksand|Sacramento" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	
+
+	<title>Mi blog de Cocina</title>
+</head>
+
+<body>
+	<div class="container">
+<!--//////////////////////////////////////////////////////HEADER Y TITULO SITIO////////////////////////////////////////////////////////////////////////////////////////////-->
+
+	<header>
+		<h1>Mi blog de Cocina</h1>
+
+<!--//////////////////////////////////////////////////////MENU CON DROPDOWN HECHO CON BOOTSTRAP////////////////////////////////////////////////////////////////////////////////////////////-->
+
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm"> 
+				<span class="sr-only">Desplegar/ocultar menu</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			</div>
+		<div class="collapse navbar-collapse" id="navegacion-fm">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">INICIO</a></li> 
+					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">PLATOS<span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+					<li><a href="#">ENSALADAS</a></li>
+					<li class="divider"></li>
+					<li><a href="#">PASTAS</a></li>
+					<li class="divider"></li>
+					<li><a href="#">CARNES</a></li>
+					<li class="divider"></li>
+					<li><a href="#">POSTRES</a></li>
+					</ul>
+					<li><a href="#">RECETAS</a></li>
+					<li><a href="#">CONTACTO</a></li>
+				</ul>
+	</nav>
+<!--///////////////////////////////////////////////////////////////////////CARRUSEL DE FOTOS PRINCIPAL///////////////////////////////////////////////////////////////////////////////////////////-->
+
+	<section class="carousel">
+		<div><img src="C:\Users\rglar\Desktop\cocina\imgs\1.jpg" id="fotocarousel1"></div><div class="aparece"><h2>5 de Mayo |"Las mejores comidas: hoy comemos tacos!"</h2></div>
+		<div><img src="C:\Users\rglar\Desktop\cocina\imgs\2.jpg" id="fotocarousel2"></div>
+		<div><img src="C:\Users\rglar\Desktop\cocina\imgs\3.jpg" id="fotocarousel3"></div>
+		<div><img src="C:\Users\rglar\Desktop\cocina\imgs\4.jpg" id="fotocarousel4"></div>
+
+	</section>
+</header>
+
+<!--//////////////////////////////////////////////////////////////////////IMAGENES CON MENU Y BOTONES////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+	<header class="titularcontenido"><h3 id="blog">En mi blog encontrarás...</h3></header>
+	<section class="menufotos">
+		<div><img src="C:\Users\rglar\Desktop\cocina\imgs\5.jpg" id="fotocomida"><div><a href="http://www.lacocinaderebeca.es/search/label/bocadillos%20y%20sandwiches">PLATOS</a></div></div>
+		<div><img src="C:\Users\rglar\Desktop\cocina\imgs\6.jpg" id="fotocomida"><div><a href="http://www.lacocinaderebeca.es/search/label/bocadillos%20y%20sandwiches">RECETAS</a></div></div>
+		<div><img src="C:\Users\rglar\Desktop\cocina\imgs\7.jpg" id="fotocomida"><div><a href="http://www.lacocinaderebeca.es/search/label/bocadillos%20y%20sandwiches">EXOTICOS</a></div></div>
+		<div><img src="C:\Users\rglar\Desktop\cocina\imgs\10.jpg" id="fotocomida"><div><a href="http://www.lacocinaderebeca.es/search/label/bocadillos%20y%20sandwiches">POSTRES</a></div></div>
+    </section>
+
+<!--///////////////////////////////////////////////////////////////////////VIDEO Y PROFILE////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<header class="titular"><h3 id="play">Mis videos</h3></header>
+  <div class="media">
+   	<iframe width="754" height="380" src="https://www.youtube.com/embed/Au-YoWR-eug" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  		<div class="cajaprofile">
+  			<div id="arriba"><h3 id="yo">Sobre mi...</h3></div>
+  		<div><img src="C:\Users\rglar\Desktop\cocina\imgs\9.jpg" id="profile"></div>
+  			<h4>Taisa Gatier</h4>
+  			<h5>Hola, soy Taisa, periodista, bloguera y fan de la comida. En este espacio podrás ver recetas, trucos y consejos para que tus platos gusten y te diviertas cocinando.</h5>
+  		<div id="abajo"><h3 id="news">Newsletter</h3></div>
+  		<div class="pie"><h6> <a href="http//:www.facebook.com">20 de Abril | Para los fans de las papas...</a></h6></div>
+  	 </div>
+ </div>
+
+<!--//////////////////////////////////////////////////////////////////////RECETARIO 1///////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<div class="todo">
+	<header class="titularcontenido"><h3 id="blog2">Algunas recetas para empezar...</h3></header>
+
+<div class="grande">
+<section class="recetario">
+	<div class="cajitadeliciosa"><img src="C:\Users\rglar\Desktop\cocina\imgs\11.jpg" id="delicias"></div>
+	<div class="info">
+		<h5 id="by"> By Taisa | 19 de Abril 2017 </h5> 
+		<h3> Delicias del Mediterraneo</h3>
+		<div id="medi"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus id, aperiam dignissimos perspiciatis eligendi distinctio animi.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus id, aperiam dignissimos perspiciatis eligendi distinctio animi.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus id, aperiam dignissimos perspiciatis eligendi distinctio animi.lorem ....</p></div>
+		<div id="leer"><a href="http//:www.facebook.com">Leer mas</a></div><div class="iconitosB"><img src="C:\Users\rglar\Desktop\cocina\imgs\like.jpg" id="icon1B"><a href="http//:www.facebook.com" id="botoncitos1B">10</a><img src="C:\Users\rglar\Desktop\cocina\imgs\share.png" id="icon2B"><a href="http//:www.facebook.com" id="botoncitos2B">10</a></div></div>
+		
+</section>
+
+<!--///////////////////////////////////////////////////////////////////////RECETARIO 2 ///////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<section class="recetario2">
+	<div class="cajitadeliciosa2"><img src="C:\Users\rglar\Desktop\cocina\imgs\12.jpg" id="delicias2"></div>
+	<div class="info2">
+		<h5 id="by2"> By Taisa | 19 de Abril 2017 </h5> 
+		<h3> Salimos de Tapas!</h3>
+		<div id="medi2"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus id, aperiam dignissimos perspiciatis eligendi distinctio animi.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus id, aperiam dignissimos perspiciatis eligendi distinctio animi.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus id, aperiam dignissimos perspiciatis eligendi distinctio animi.lorem ....</p></div>
+		<div id="leer2"><a href="http//:www.facebook.com">Leer mas</a></div><div class="iconitosA"><img src="C:\Users\rglar\Desktop\cocina\imgs\like.jpg" id="icon1A"><a href="http//:www.facebook.com" id="botoncitos1A">10</a><img src="C:\Users\rglar\Desktop\cocina\imgs\share.png" id="icon2A"><a href="http//:www.facebook.com" id="botoncitos2A">10</a></div></div>
+</section>
+
+
+<!--////////////////////////////////////////////////////////////////////////RECETARIO 3////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+<section class="recetario3">
+	<div class="cajitadeliciosa3"><img src="C:\Users\rglar\Desktop\cocina\imgs\13.jpg" id="delicias3"></div>
+	<div class="info3">
+		<h5 id="by3"> By Taisa | 19 de Abril 2017 </h5> 
+		<h3> Postre en capas de frutos rojos</h3>
+		<div id="medi3"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus id, aperiam dignissimos perspiciatis eligendi distinctio animi.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus id, aperiam dignissimos perspiciatis eligendi distinctio animi.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus id, aperiam dignissimos perspiciatis eligendi distinctio animi.lorem ....</p></div>
+		<div id="leer3"><a href="http//:www.facebook.com">Leer mas</a></div><div class="iconitos"><img src="C:\Users\rglar\Desktop\cocina\imgs\like.jpg" id="icon1"><a href="http//:www.facebook.com" id="botoncitos1">10</a><img src="C:\Users\rglar\Desktop\cocina\imgs\share.png" id="icon2"><a href="http//:www.facebook.com" id="botoncitos2">10</a></div></div>	
+</section>
+</div>
+</div></div>
+<!--////////////////////////////////////////////////////////////////////////FOOTER - REDES SOCIALES//////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<footer>
+<div class="redes">
+	<a href="https://www.facebook.com/" id="link1"><img src="C:\Users\rglar\Desktop\cocina\imgs\pinterest.png" id="logos1">Pinterest  </a>
+	<a href="https://twitter.com/" id="link2"><img src="C:\Users\rglar\Desktop\cocina\imgs\twitter.png" id="logos2">Twitter</a>
+	<a href="https://www.flickr.com " id="link3"><img src="C:\Users\rglar\Desktop\cocina\imgs\flirck.png" id="logos3">Flirck</a>
+	<a href="https://www.instagram.com/" id="link4"><img src="C:\Users\rglar\Desktop\cocina\imgs\instagram.png" id="logos4">Instagram</a>
+	<a href="https://www.youtube.com/" id="link5"><img src="C:\Users\rglar\Desktop\cocina\imgs\youtube.png" id="logos5">Youtube</a>
+</div>
+</footer>
+</body>
+</html>
