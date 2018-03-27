@@ -1,0 +1,79 @@
+@anchototal:800px;
+@paddingcajas:10px;
+
+	*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+.container{
+	width: @anchototal;
+	background-color: grey;	
+	margin: 0;
+}	
+.bloque1{
+	display: flex;
+	flex-direction: row;
+	padding:@paddingcajas;
+}
+.caja1{
+	width: 500px;
+	height: 400px;
+	background-color: peru;
+	margin-left: 5px;
+	margin-right: 5px;&:hover{
+	background:palegreen;
+	}
+}
+.caja2{
+	.caja1;
+	background-color: yellow;&:hover{
+	background-color:plum;
+	}
+}
+.bloque2{
+	.bloque1;
+	display: flex;
+	flex-direction: row;
+}
+.caja3{
+	.caja1;
+	height: 200px;
+}
+.caja4{
+	.caja2;
+	height: 200px;
+}
+.parrafo{
+	background-color: peru;
+	width: 100%;
+	height: auto;
+	text-align:center;
+	margin: 0;
+	padding-top: 5px;
+}
+
+@media screen and (max-width: 480px){
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.bloque1, .bloque2{
+  flex-direction: column;
+  padding: 10px;
+}
+.caja1, .caja3{
+  width: auto;
+  margin-bottom: 10px;
+}
+.caja2, .caja4{
+  width: auto;
+  margin-top: 10px;
+}
+.parrafo{
+  width: 100%;
+  height: 150px;
+}
