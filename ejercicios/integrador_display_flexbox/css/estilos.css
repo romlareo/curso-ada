@@ -1,0 +1,113 @@
+*{
+	padding:0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.encabezado{
+	height: 100px;
+	margin: 0px 20px 10px 20px;
+	background-color: #DBDBDB;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+ul, li{
+	list-style: none;
+	padding-top: 20px;
+	padding-left: 20px;
+	color: black;
+}
+ul{
+	display: flex;
+	flex-direction: row;
+}
+ul, li, a{
+	text-decoration: none;
+}
+.buscador{
+	padding: 20px;
+	list-style: none;
+	color: black;
+	}
+/*Section*/
+
+section{
+	margin: 0px 20px 10px 20px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.libros{
+	width: 100%;
+}
+.harry{
+	background-color: #DBDBDB;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	margin-right: 40px;
+}
+.imgs{
+	padding-top: 20px;
+}
+img{
+	width: 200px;
+	height:300px;
+	margin: 50px;
+}
+.submit{
+	width: 70px;
+	height: 30px;
+	position: relative;
+	left:110px;
+}
+h4, p{
+	position: relative;
+	left: 50px;
+	bottom:40px;
+	text-decoration: none;
+}
+#botoncito{
+	width: 70px;
+	height: 30px;
+	position: relative;
+	left:0px;
+}
+
+@media all and (max-width:480px) {
+	
+	.encabezado{
+		display:block;
+		position: fixed;
+		margin-bottom: 50px;
+		z-index: 1;
+		left: 60px;
+		width: 300px;
+}
+		.buscador{
+			position: relative;
+			bottom: 40px;
+			margin-bottom: 10px;
+}
+#botoncito{
+	width: 50px;
+	height: 30px;
+}
+.encabezado li a{
+	position: relative;
+	bottom: 15px;
+}
+section{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	position: relative;
+	top:150px;
+}
+}
