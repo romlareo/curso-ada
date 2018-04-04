@@ -1,0 +1,244 @@
+/*GLBAL*/
+
+*{
+	margin:0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+/*////////////////////////////////////////////////TITULO DE LA PAGINA -DETALLES///////////////////////////////////////////////////////// */
+h1{
+font-family: 'Indie Flower', cursive;
+font-size: 50px;
+text-align: center;
+}
+/*////////////////////////////////////////////////NAV////////////////////////////////////////////////////////////////////////////////////// */
+
+nav .submenu{
+	background: white;
+}
+ul{
+	list-style: none;
+	text-decoration: none;
+	list-style-type: none;
+}
+.menu{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+	text-decoration: none;
+	padding: 20px;
+	background-color: white;
+	font-size: 10px;
+}
+ul li{
+	margin: 15px;
+}
+.menu li a{
+	text-decoration: none;
+	color: #9d9d9d;
+	background-color: white;
+	padding:0px 15px;
+}
+.menu li a{
+	display: block;
+}
+.menu li a:hover{
+	color: #FCB5B5;
+	background-color: white;
+}
+.menu>li{
+	float: left;
+}
+.menu li ul{
+	display: none;
+	position: absolute;
+	min-width: 100px;
+} 
+.menu li:hover > ul{
+	display: block;
+}
+#portadafoto{
+	width: 100%;
+	height: 100%;
+}
+/*////////////////////////////////////////////////ENTRADA//////////////////////////////////////////////////////////////////////////////// */
+
+.entradas{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: flex-start;
+	font-size: 13px;
+
+}
+section .entradas{
+	position: relative;
+	top: 10px;
+	margin-bottom: 50px;
+}
+ section ul li a{
+	list-style: none;
+	text-decoration: none;
+	list-style-type: none;
+	font-weight: bold;
+	color: black;
+}
+section ul li a:hover{
+	color: #FCB5B5;
+}
+#postrerojo a{
+	font-weight: lighter;
+	color: grey;
+}
+#postrefoto{
+	border-radius: 30px;
+}
+/*////////////////////////////////////////////////REDES//////////////////////////////////////////////////////////////////////////////// */
+.general{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: row;
+}
+.redes{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	padding: 10px;
+	color: #FCB5B5;
+}
+.redes .facebook, .redes .twitter, .redes .youtube, .redes .google, .redes .linkedin, .redes .instagram {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/*////////////////////////////////////////////////SHARE BUTTONS//////////////////////////////////////////////////////////////////////////////// */
+.sharebuttons{
+	display: flex;
+	justify-content: center;
+	padding-top: : 20px;
+	font-size: 12px;
+	color: #9d9d9d;
+	margin-top: 20px;
+}
+.fecha{
+	position: relative;
+	left: -105px;
+}
+.compartir{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	left: 170px;}
+
+.compartir .heart, .compartir .comments, .compartir .share {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+/*////////////////////////////////////////////////RECETAS//////////////////////////////////////////////////////////////////////////////// */
+
+.toda-receta{
+	width: 600px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	text-align: left;
+	flex-direction: column;
+	position: relative;
+	left: 525px;
+	padding-top: 20px;
+}
+section .toda-receta{
+	display: flex;
+	justify-content: center;
+}
+h3{
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	
+}
+#txt-receta{
+	font-size: 15px;
+	color: #9d9d9d;
+	text-align: justify;
+}
+hr.v{
+width: 5px;
+height: 90px;
+margin-top: 30px;
+background-color: #FCB5B5;
+}
+h4{
+	position: relative;
+	left: 20px;
+	bottom: 75px;
+	width: 550px;
+}
+#name-cita{
+	position: relative;
+	bottom: 70px;
+	left: 20px;
+	font-size: 13px;
+}
+.ingredientes{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
+}
+ #tituloingredientes{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	font-size: 25px;
+	margin-top: -50px;
+}
+/*////////////////////////////////////////////////REDES FOOTER//////////////////////////////////////////////////////////////////////////////// */
+
+footer .social{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: grey;
+	padding: 20px 20px 0px 20px;
+	margin-bottom: 10px;
+ 	}
+
+.face, .twit, .goo, .insta, .youtub, .linked{
+	padding: 50px 20px 20px 20px;
+}
+.face:hover {
+	cursor: pointer;
+	color: #FCB5B5;
+}
+
+.twit:hover {
+	cursor: pointer;
+	color: #FCB5B5;
+}
+
+.goo:hover {
+	cursor: pointer;
+	color: #FCB5B5;
+}
+
+.linked:hover {
+	cursor: pointer;
+	color: #FCB5B5;
+}
+
+.insta:hover {
+	cursor: pointer;
+	color: #FCB5B5;
+}
+
+.youtub:hover {
+	cursor: pointer;
+	color: #FCB5B5;
+}

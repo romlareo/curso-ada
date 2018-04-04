@@ -1,0 +1,610 @@
+/*GLBAL*/
+
+*{
+	margin:0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*////////////////////////////////////////////////TITULO DE LA PAGINA -DETALLES///////////////////////////////////////////////////////// */
+h1{
+font-family: 'Indie Flower', cursive;
+font-size: 50px;
+text-align: center;
+}
+
+/*////////////////////////////////////////////////////////////////////NAV SUPERIOR///////////////////////////////////////////////////////*/
+nav .submenu{
+	background: white;
+	z-index: 1;
+}
+ul{
+	list-style: none;
+	text-decoration: none;
+	list-style-type: none;
+}
+.menu{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+	text-decoration: none;
+	padding: 10px;
+	background-color: white;
+	font-size: 10px;
+}
+ul li{
+	margin: 15px;
+}
+.menu li a{
+	text-decoration: none;
+	color: #9d9d9d;
+	background-color: white;
+	padding:0px 15px;
+}
+.menu li a{
+	display: block;
+}
+.menu li a:hover{
+	color: #FCB5B5;
+	background-color: white;
+}
+.menu>li{
+	float: left;
+}
+.menu li ul{
+	display: none;
+	position: absolute;
+	min-width: 100px;
+} 
+.menu li:hover > ul{
+	display: block;
+}
+
+.nav-hamburguesa{
+	display: none;
+}
+/*/////////////////////////////////////////////////////CAROUSEL SECTION//////////////////////////////////////////////////////////////////////////*/
+.carousel{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;	
+	margin-bottom: 50px;
+}
+#fotocarousel1, #fotocarousel2, #fotocarousel3, #fotocarousel4{
+	width: 100%;
+	height: 100%;
+	border:5px solid white;
+}
+#blog, #blog2{
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+/*///////////////////////////////////////////////////////MENUFOTOS - SECTION/////////////////////////////////////////////////////////////////////////*/
+.menufotos{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0 auto;
+	font-size: 10px;
+	margin-bottom: 100px;
+
+}
+ #fotocomida{
+ 	display: flex;
+	flex-direction: row;
+	justify-content: center;
+ 	margin: 0 auto;
+ 	width: 50%;
+ 	height: 100%;
+ 	border-radius: 20px;
+ 	border:5px solid white;
+
+ }
+.menufotos a {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: relative;
+	bottom: 90px;
+	color: white;
+	text-align: center;
+	background-color: #FCB5B5;
+	border-radius: 20px;
+	opacity: 50%;
+	width: 90px;
+	position: relative;
+	left:95px;
+	text-decoration: none;
+}
+.menufotos a:hover{
+	color: #9d9d9d;
+	}
+
+.menufotos div img div{
+
+	width: 200px;
+	height: 100px;
+	background-color: #9d9d9d;
+	border-radius: 20px;
+	position: relative;
+	top:330px;
+}
+
+/*/////////////////////////////////////////////////////////////HOVER FOTOS////////////////////////////////////////////////////////////////////////////*/
+
+.aparece{
+	width: 269px;
+	height: 100px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	position: absolute;
+	left: 7px;
+	bottom: 0px;
+	}
+.aparece2{
+	background-color: transparent;
+	display: flex;
+	position: absolute;
+	width: 280px;
+	height: 100px;
+	left: 279px;
+	bottom: 5px;
+}
+.aparece3{
+	width: 283px;
+	height: 100px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	position: absolute;
+	left: 548px;
+	bottom: 0px;
+
+}
+.aparece4{
+	width: 285px;
+	height: 100px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	position: absolute;
+	left: 800px;
+	bottom: 0px;
+
+}
+
+h2{
+	overflow: hidden;
+	cursor: pointer;
+	color: transparent;
+	font-size: 15px;
+	padding-top: 15px;
+	padding-left: 6px;
+	padding-right: 7px;
+}
+ h2:hover{
+	background: #FCB5B5;
+	color:white;
+	transition: all 300ms;
+	position: relative;
+	left: 5px;
+	bottom: -5px;
+	padding-bottom: 10px;
+ }
+
+
+.aparece:hover{
+	left: 0px;
+	opacity: 0.8;
+}
+.aparece2:hover{
+	left:273px;
+	opacity: 0.8;
+	bottom: 0px;
+}
+
+.aparece3:hover{
+	left:563px;
+	opacity: 0.8;
+	bottom: 0px;
+}
+.aparece4:hover{
+	left:850px;
+	opacity: 0.8;
+	bottom: 0px;
+}
+
+
+/*/////////////////////////////////////////////////////////MEDIA SECTION - VIDEOS Y PERFIL/////////////////////////////////////////////////////////////////////*/
+.media{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	position: static;
+	
+}
+.titular{
+	width: 100%;
+	margin-bottom: -60px;
+	padding-top: 20px;
+	font-size: 15px;
+	font-family: 'Indie Flower', cursive;
+	display: flex;
+	flex-direction: row;
+}
+.cajaprofile{
+	width: 300px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	padding-left: 30px;
+	position: relative;
+	left: 30px;
+	margin-bottom: -50px;
+}
+h4{
+	text-align: center;
+	font-weight: bold;
+}
+h5{
+	text-align: center;
+	font-size: 13px;
+	padding-bottom: 10px;
+	color: grey;
+}
+#yo, #news{
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	bottom: 15px;	
+	color: white;
+}
+#play{
+	position: relative;
+	bottom: 80px;
+	}
+#profile{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+#arriba, #abajo{
+	width: 100%;
+	height: 30px;
+	background-color: #FCB5B5;
+	border-radius: 20px;
+}
+.pie{
+	display: flex;
+	
+}
+.pie a{
+	flex-direction: column;
+	align-content: flex-end;
+	font-family: 'Indie Flower', cursive;
+	color: #9d9d9d;
+}
+.pie a:hover{
+	color:#FCB5B5;
+	text-decoration: none;
+}
+
+/*/////////////////////////////////////////////////////////SECTION - RECETARIOS/////////////////////////////////////////////////////////////////////*/
+
+
+#delicias, #delicias2, #delicias3{
+ 	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+ 	height: 100%;
+ 	border-radius: 20px;
+ 	border:5px solid white;
+ 	width: 95%;
+ }
+ .cajitadeliciosa, .cajitadeliciosa2, .cajitadeliciosa3{
+ 	display: flex;
+ 	justify-content: flex-end;
+ 	border:2px solid white;
+ 	flex-direction: column;
+ 	margin-right: 20px;
+ }
+
+
+ .recetario, .recetario2, .recetario3{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: center;
+	margin: 0 auto;
+	font-size: 10px;
+	width: 1000px;
+	height: 100%;
+	
+	
+}
+.info, .info2, .info3{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+
+}
+#leer, #leer2, #leer3{
+	background-color: #FCB5B5;
+	width: 100px;
+	height: 50px;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	}
+	#leer a:hover, #leer2 a:hover, #leer3 a:hover{
+		color:#9d9d9d;
+	}
+
+#leer a, #leer2 a, #leer3 a{
+	font-size: 15px;
+	color: white; 
+	text-decoration: none;
+}
+
+
+#by, #by2, #by3{
+	margin-left: -180px;
+	margin-bottom: -10px;
+	color: grey;
+}
+#medi p, #medi2 p, #medi3 p{
+	font-size: 13px;
+	width: 340px;
+	padding-bottom: 20px;
+	color: grey;
+	text-align: justify;
+}
+.grande{
+	display: flex;
+	flex-direction: row;
+}
+
+.compartir{
+	display: flex;
+	flex-direction: row;
+}
+.heart, .comments, .share{
+	position: relative;
+	left: 118px;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #9d9d9d;
+}
+.fecha{
+	position: relative;
+	left: 10px;
+	color:#9d9d9d;
+}
+
+.videoypie{
+	bottom: 50px;
+}
+
+/*/////////////////////////////////////////////////////////////////////FOOTER NAV///////////////////////////////////////////////////////////////////////////////*/
+footer .redes{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: grey;
+	padding: 20px 20px 0px 20px;
+	margin-bottom: 10px;
+ 	}
+
+.facebook, .twitter, .google, .instagram, .youtube, .linkedin{
+	padding: 50px 20px 20px 20px;
+}
+.facebook:hover {
+	cursor: pointer;
+	color: #FCB5B5;
+}
+
+.twitter:hover {
+	cursor: pointer;
+	color: #FCB5B5;
+}
+
+.google:hover {
+	cursor: pointer;
+	color: #FCB5B5;
+}
+
+.linkedin:hover {
+	cursor: pointer;
+	color: #FCB5B5;
+}
+
+.instagram:hover {
+	cursor: pointer;
+	color: #FCB5B5;
+}
+
+.youtube:hover {
+	cursor: pointer;
+	color: #FCB5B5;
+}
+
+/* ------------------------------------------------------------queries---------------------------------------------------------------------------  */
+
+@media all and (max-width:760px) {
+
+
+.nav-hamburguesa{
+	display: none;
+}
+iframe, .pie, #fotocarousel3, #fotocarousel4, #fotocarousel2, .titular, .compartir{
+	display: none;
+}
+.aparece, .aparece2{
+	display: none;
+}
+h1{
+	font-size: 40px;
+	padding-left: 50px;
+}
+.carousel{
+	display: flex;
+	margin-bottom: 50px;
+}
+#fotocarousel1,{
+	width: 100%;
+	height: 100%;
+	border:5px solid white;
+}
+.menufotos{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0 auto;
+	font-size: 10px;
+}
+
+.menufotos a {
+	position: relative;
+	color: white;
+	width: 100px;
+	left:300px;
+	bottom: 180px;
+}
+div .media{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	right: 50px;
+	top:30px;
+}
+.grande{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	}
+	
+#blog2{
+	padding-top: 20px;
+}
+.recetario, .recetario2, .recetario3{
+	position: relative;
+	left: 150px;
+}
+
+.cajitadeliciosa, .cajitadeliciosa2, .cajitadeliciosa3{
+		width: 38%;
+		align-items: center;
+}
+.todo{
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+#medi p, #medi2 p, #medi3 p{
+	padding-left: 15px;
+	width: 365px;
+}
+h3{
+	padding-left: 15px;
+}
+#leer, #leer2, #leer3{
+	position: relative;
+	left: 10px;
+	bottom: 10px;
+}
+footer .redes{
+	display: flex;
+	flex-direction: row;
+	color: grey;
+	padding: 5px
+}
+span{
+	display: none;
+}
+
+
+@media all and (max-width:480px) {
+
+.nav-sinburger{
+	display: none;
+}
+.nav-hamburguesa{
+	display: flex;
+	position: absolute;
+	top:15px;
+	left: 25px;
+	background-color:white;}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+margin-right: -20px;
+
+}
+.navbar-nav{
+	background-color:#FCB5B5;
+}
+div.navbar-header{
+	background-color:white;
+}	
+.navbar-inverse{
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-inverse-brand-color{
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle{
+	border-color: #FCB5B5;
+	background-color: #FCB5B5;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+}
+
+.recetario, .recetario2, .recetario3{
+	position: relative;
+	left: 0px;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
+	color: white;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+	background-color: transparent;
+
+}
+.menufotos a {
+	position: relative;
+	color: white;
+	width: 75px;
+	left:153px;
+	bottom: 100px;
+}
+}
+
+
+
+
+
+
+
+
+
