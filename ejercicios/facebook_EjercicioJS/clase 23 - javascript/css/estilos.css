@@ -1,0 +1,168 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+.container{
+	display: flex;
+	width: 1000px;
+	height: 1000px;
+	flex-direction: row;
+}
+.izquierda{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+.derecha{
+	display: flex;
+	justify-content: flex-start;
+	align-content: flex-start;
+	flex-direction: column;
+}
+#foto-perfil{
+	width: 250px;
+	height: 250px;
+}
+ .perfil{
+ 	margin: 10px;
+ 	width: 400px;
+ 	display: flex;
+ 	justify-content: center;
+ 	padding: 10px;
+  }
+ .datosperfil{
+ 	padding: 10px;
+ 	display: flex;
+	justify-content: flex-start;
+	margin: 10px;
+ 	width: 400px;
+ 	background-color: grey;
+ }
+ #datosperfil{
+ 	width: 400px;
+  }
+  h1{
+	font-family: sans-serif;
+}
+h2{
+	font-family: sans-serif;
+	font-size: 15px;
+}
+.amigos{
+	display: flex;
+	justify-content: flex-start;
+	margin: 10px;
+ 	width: 400px;
+ 	background-color: grey;
+}
+#amigos{
+	width: 400px;
+	height: 200px;
+	justify-content: space-around;
+	align-content: center;
+	background-color: #25ABC8;
+	padding-left: 12px;
+	padding-top: 5px;
+}
+.muroperfil{
+	width: 600px;
+	height: 340px;
+	margin: 10px;
+	background-color:#25ABC8;
+}
+#muro p{
+	display: inline-block;
+	position: relative;
+	bottom: 50px;
+}
+#muro{
+	width: 580px;
+	background-color: white;
+	margin: 10px;
+	}
+.thumb{
+	width: 100px;
+	height: 100px;
+}
+li{
+	list-style: none;
+}
+.form{
+	position: relative;
+	top:30px;
+	background-color:#25ABC8;
+	width: 600px;
+	height: 50px;
+	margin: 10px;
+	display: flex;
+	justify-content:flex-start;
+
+}
+#formularios{
+	display: flex;
+	margin: 10px 10px 10px 10px;
+	background-color:#25ABC8;
+	display: flex;
+	justify-content:flex-start;
+}
+#formularios input{
+	width: 350px;
+}
+
+#formularios .botonStyle input{
+		height: 30px;
+		width: 225px;
+}
+
+/*//////////////////////////////////////////////////////////QUERIES//////////////////////////////////////////*/
+@media all and (max-width:480px) {
+
+.container{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+.izquierda{
+	margin: 0;
+	width: 400px;
+}
+.derecha{
+	margin: 0;
+	width: 400px;
+}
+#foto-perfil{
+	padding-bottom: 10px;
+}
+.perfil{
+	padding: 20px;
+}
+ .datosperfil{
+ 	padding: 10px;
+ }
+.amigos{
+padding-bottom: 30px;
+}
+.muroperfil{
+	width: 400px;
+}
+#muro{
+	width: 380px;
+}
+.form{
+
+	width: 400px;
+	height: 120px;
+}
+#formularios input{
+	width: 280px;
+	height: 30px;
+	 
+}
+#formularios .botonStyle input{
+		height: 30px;
+		width: 100px;
+		
+}
