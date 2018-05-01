@@ -1,0 +1,63 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+
+}
+
+#container-main {
+	width:600px;
+	margin:50px auto;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.container {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.box {
+	height:150px;
+	margin:5px 0;
+}
+
+.box-top {
+	width:100%;
+}
+
+.box-center {
+	width:calc(50% - 5px);
+}
+
+.box-bottom {
+	width:33%;
+}
+
+.cyan {
+	background-color:cyan;
+}
+
+.pink {
+	background-color:pink;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.blue {
+	background-color:blue;
+}
+
+.deep-orange {
+	background-color: #ff5722;
+}
+.grey {
+	background-color:grey;
+}
